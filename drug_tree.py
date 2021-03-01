@@ -13,11 +13,6 @@ class DrugTree():
             for child in childern:
                 self.add_child(child)
     
-    def __repr__(self):      
-        
-        
-        return 'self.name'
-    
     def add_child(self, node):
         self.children.append(node)
     
