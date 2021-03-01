@@ -35,8 +35,7 @@ class DrugTree():
         # breakpoint()
         
         if node == None :
-            return
-        
+            return       
             
         for node in node.children:            
             if parent == None:
@@ -46,6 +45,7 @@ class DrugTree():
                     print('--' + node.name)  
                 else:
                     print('---' + node.name)    
+            
             self.print_me(node, node.name)
             
            
